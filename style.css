@@ -91,7 +91,7 @@ body {
   flex-direction: row;
   justify-content: flex-end;
 }
-@media (min-width:300px) and (max-width:767px) {
+@media (min-width:300px) and (max-width:600px) {
     body{
        margin: 60px 20px;
     }
