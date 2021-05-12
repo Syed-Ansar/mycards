@@ -91,12 +91,12 @@ body {
   flex-direction: row;
   justify-content: flex-end;
 }
-@media  (max-width:600px) {
+@media (min-width:360px) and (max-width:600px) {
     body{
        margin: 60px 20px;
     }
     .card{
-        width: 320px;
+       width: 300px;
         margin-bottom: 2rem;
         flex-wrap: nowrap;
         flex-direction: column;
